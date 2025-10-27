@@ -1,4 +1,3 @@
-// InsertionSort.java
 public class InsertionSort {
 
     // Enteros
@@ -14,7 +13,6 @@ public class InsertionSort {
         }
     }
 
-    // Cadenas sin compareTo
     static void ordenarCadenas(String[] a) {
         for (int i = 1; i < a.length; i++) {
             String clave = a[i];
@@ -38,7 +36,6 @@ public class InsertionSort {
         return a.length() < b.length();
     }
 
-    // Personas por nombre
     static void ordenarPersonasPorNombre(Persona[] p) {
         for (int i = 1; i < p.length; i++) {
             Persona clave = p[i];
@@ -51,7 +48,6 @@ public class InsertionSort {
         }
     }
 
-    // Personas por edad
     static void ordenarPersonasPorEdad(Persona[] p) {
         for (int i = 1; i < p.length; i++) {
             Persona clave = p[i];
@@ -64,6 +60,7 @@ public class InsertionSort {
         }
     }
 }
+
 
 
 

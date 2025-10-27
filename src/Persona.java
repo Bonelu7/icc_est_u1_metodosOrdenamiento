@@ -1,4 +1,3 @@
-// Persona.java
 public class Persona {
     String nombre;
     int edad;
@@ -12,6 +11,7 @@ public class Persona {
         return nombre + " (" + edad + " años)";
     }
 }
+
 
 
 
